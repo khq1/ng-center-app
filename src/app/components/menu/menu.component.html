@@ -1,0 +1,25 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item>
+        <mat-icon>search</mat-icon>
+        <span>Search</span>
+    </button>
+    <button mat-menu-item disabled>
+        <mat-icon>fingerprint</mat-icon>
+        <span>ID</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>lock_open</mat-icon>
+        <span>Enable</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>grade</mat-icon>
+        <span>Rate</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>favorite_border</mat-icon>
+        <span>Like</span>
+    </button>
+</mat-menu>	
