@@ -10,7 +10,7 @@ export class RadioMenuComponent implements OnInit {
   constructor(private router: Router) {}
 
   public buttonClick(fragment: string): void {
-    this.router.navigate(['/app-homepage']).then(() => {
+    this.router.navigate(['/app-main']).then(() => {
       window.location.hash = fragment;
     });
   }

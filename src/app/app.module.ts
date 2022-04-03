@@ -8,6 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { RadioMenuComponent } from './components/radio-menu/radio-menu.component';
+import { CrownPageComponent } from './components/crown-page/crown-page.component';
 
 
 
@@ -17,6 +18,7 @@ import { RadioMenuComponent } from './components/radio-menu/radio-menu.component
     MainComponent,
     MenuComponent,
     RadioMenuComponent,
+    CrownPageComponent,
 
   ],
   imports: [
