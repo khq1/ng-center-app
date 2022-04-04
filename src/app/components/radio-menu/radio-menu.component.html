@@ -1,28 +1,30 @@
 <mat-radio-group class="side-radio-group side-radio-group-custom">
 
-    <mat-radio-button labelPosition='before' value="" color="accent" (click)="buttonClick('crown')" matTooltip="Crown"
-        matTooltipClass="tooltip-red" matTooltipPosition='left'>
+    <mat-radio-button labelPosition='before' value="1" color="accent"  matTooltip="Crown"
+        matTooltipClass="tooltip-red" matTooltipPosition='left'
+        routerLink="/crown" routerLinkActive="active">
     </mat-radio-button><br>
 
-    <mat-radio-button labelPosition='before' value="" color="accent" (click)="buttonClick('third-eye')"
-        matTooltip="Third-eye" matTooltipClass="tooltip-red" matTooltipPosition='left'>
+    <mat-radio-button  labelPosition='before' value="2" color="accent" 
+        matTooltip="Third-eye" matTooltipClass="tooltip-red" matTooltipPosition='left'
+        routerLink="/third-eye" routerLinkActive="active">
     </mat-radio-button><br>
 
-    <mat-radio-button labelPosition='before' value="" color="accent" (click)="buttonClick('throat')" matTooltip="Throat"
-        matTooltipClass="tooltip-red" matTooltipPosition='left'>
+    <mat-radio-button value="3" labelPosition='before' color="accent" matTooltip="Throat"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/throat" routerLinkActive="active">
     </mat-radio-button><br>
 
-    <mat-radio-button value="" labelPosition='before' color="accent" (click)="buttonClick('heart')" matTooltip="Heart"
-        matTooltipClass="tooltip-red" matTooltipPosition='left'></mat-radio-button><br>
+    <mat-radio-button value="4" labelPosition='before' color="accent"  matTooltip="Heart"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/heart" routerLinkActive="active"></mat-radio-button><br>
 
-    <mat-radio-button value="" labelPosition='before' color="accent" (click)="buttonClick('solar-plexus')"
-        matTooltip="Solar-Plexus" matTooltipClass="tooltip-red" matTooltipPosition='left'></mat-radio-button> <br>
+    <mat-radio-button value="5" labelPosition='before' color="accent" 
+        matTooltip="Solar-Plexus" matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/solar-plexus" routerLinkActive="active"></mat-radio-button> <br>
 
-    <mat-radio-button value="" labelPosition='before' color="accent" (click)="buttonClick('sacral')" matTooltip="Sacral"
-        matTooltipClass="tooltip-red" matTooltipPosition='left'></mat-radio-button><br>
+    <mat-radio-button value="6" labelPosition='before' color="accent" matTooltip="Sacral"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/sacral" routerLinkActive="active"></mat-radio-button><br>
 
-    <mat-radio-button value="" labelPosition='before' color="accent" (click)="buttonClick('root')" matTooltip="Root"
-        matTooltipClass="tooltip-red" matTooltipPosition='left'></mat-radio-button>
+    <mat-radio-button value="7" labelPosition='before' color="accent" matTooltip="Root"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/root" routerLinkActive="active"></mat-radio-button>
 
 </mat-radio-group>
 
