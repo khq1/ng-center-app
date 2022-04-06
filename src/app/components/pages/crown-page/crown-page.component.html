@@ -1,1 +1,29 @@
-<p>crown-page works!</p>
+<div class="full_screen_tile crown">
+<mat-button-toggle>
+Aligned
+</mat-button-toggle>
+
+
+
+<mat-expansion-panel class="more" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            Act 
+        </mat-panel-title>
+
+
+
+        <mat-panel-description>
+            Choose method: {{panelOpenState ? 'open' : 'closed'}}
+        </mat-panel-description>
+    </mat-expansion-panel-header>
+    
+    <p>Ground with mind</p>
+    <p>Ground with workout</p>
+    <p>Check protection</p>
+    <p>Breathing technique</p>
+</mat-expansion-panel>
+
+
+</div>
+
