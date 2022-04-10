@@ -7,21 +7,24 @@ Aligned
 
 <mat-expansion-panel class="more" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
     <mat-expansion-panel-header>
-        <mat-panel-title>
+        <mat-panel-title class="mat-panel-title act">
             Act 
         </mat-panel-title>
-
-
-
-        <mat-panel-description>
-            Choose method: {{panelOpenState ? 'open' : 'closed'}}
+        <mat-panel-description class="mat-panel-description Choose">
+            Choose {{panelOpenState ? 'your space' : 'your tool'}}
         </mat-panel-description>
-    </mat-expansion-panel-header>
+        </mat-expansion-panel-header>
+        <mat-list>
+            <mat-list-item> Ground with mind </mat-list-item>
+            <mat-list-item> Ground with workout</mat-list-item>
+            <mat-list-item> Check protection </mat-list-item>
+            <mat-list-item> Breathing technique </mat-list-item>
+            <mat-list-item> Clean space </mat-list-item>
+        </mat-list>
+
+
+
     
-    <p>Ground with mind</p>
-    <p>Ground with workout</p>
-    <p>Check protection</p>
-    <p>Breathing technique</p>
 </mat-expansion-panel>
 
 
