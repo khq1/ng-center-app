@@ -3,13 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-solar-plexus-page',
   templateUrl: './solar-plexus-page.component.html',
-  styleUrls: ['./solar-plexus-page.component.sass']
+  styleUrls: ['./solar-plexus-page.component.sass'],
 })
 export class SolarPlexusPageComponent implements OnInit {
+  panelOpenState = false;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
+  ngOnInit(): void {}
 }

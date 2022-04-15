@@ -1,1 +1,31 @@
-<p>root-page works!</p>
+<div class="full_screen_tile crown">
+    <mat-button-toggle>
+        Aligned
+    </mat-button-toggle>
+
+
+
+    <mat-expansion-panel class="more" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="mat-panel-title act">
+                Act
+            </mat-panel-title>
+            <mat-panel-description class="mat-panel-description Choose">
+                Choose {{panelOpenState ? 'your space' : 'your tool'}}
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-list>
+            <mat-list-item> Ground with mind </mat-list-item>
+            <mat-list-item> Ground with workout</mat-list-item>
+            <mat-list-item> Check protection </mat-list-item>
+            <mat-list-item> Breathing technique </mat-list-item>
+            <mat-list-item> Clean space </mat-list-item>
+        </mat-list>
+
+
+
+
+    </mat-expansion-panel>
+
+
+</div>
