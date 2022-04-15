@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-
+import { MainComponent } from './components/main/main.component';
 import { CrownPageComponent } from './components/pages/crown-page/crown-page.component';
 import { ThirdEyeComponent } from './components/pages/third-eye-page/third-eye-page.component';
 import { ThroatPageComponent } from './components/pages/throat-page/throat-page.component';
@@ -10,7 +10,8 @@ import { SolarPlexusPageComponent } from './components/pages/solar-plexus-page/s
 import { SacralPageComponent } from './components/pages/sacral-page/sacral-page.component';
 import { RootPageComponent } from './components/pages/root-page/root-page.component';
 const routes: Routes = [
- 
+
+  { path: '', component:MainComponent},
   { path: 'crown', component: CrownPageComponent },
   { path: 'third-eye', component: ThirdEyeComponent },
   { path: 'throat', component: ThroatPageComponent },

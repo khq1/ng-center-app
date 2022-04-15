@@ -1,0 +1,25 @@
+.full_screen
+    color: white
+    position: relative
+    width: 100%
+    height: 100vh
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+    display: flex
+    justify-content: center
+    align-items: center
+
+    john      
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_1280.jpg')
+
+    .example-card
+        position: absolute 
+        margin: auto
+        max-width: 60vw
+        height: auto
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none)
+    .example-card
+        -webkit-backdrop-filter: blur(3px)
+        backdrop-filter: blur(3px)
+        background-color: rgba( 128, 128, 128, 0.1)
