@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrownPageComponent implements OnInit {
   panelOpenState = false;
+  pagename="Crown"
   constructor() {}
 
   // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
