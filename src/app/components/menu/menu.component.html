@@ -24,7 +24,25 @@
         <mat-icon>favorite_border</mat-icon>
         <span>Like</span>
     </button>
+
+<button mat-menu-item [matMenuTriggerFor]="Chakras">
+    <mat-icon>expand_circle_down</mat-icon>
+    <span>Chakras</span>
+    
+    Chakras</button>
+<mat-menu #Chakras="matMenu">
+    <button mat-menu-item routerLink="/crown" routerLinkActive="active">Crown</button>
+    <button mat-menu-item routerLink="/third-eye" routerLinkActive="active">Third-Eye</button>
+    <button mat-menu-item  routerLink="/throat" routerLinkActive="active">Throat</button>
+    <button mat-menu-item  routerLink="/heart" routerLinkActive="active">Heart</button>
+    <button mat-menu-item routerLink="/solar-plexus" routerLinkActive="active">Solar Plexus</button>
+    <button mat-menu-item routerLink="/sacral" routerLinkActive="active">Sacral</button>
+    <button mat-menu-item routerLink="/root" routerLinkActive="active">Root</button>
 </mat-menu>
+
+</mat-menu>
+
+
 
    
 <span class="spacer"></span>
