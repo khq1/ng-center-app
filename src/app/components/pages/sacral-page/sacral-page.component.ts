@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SacralPageComponent implements OnInit {
   panelOpenState = false;
+  pagename = 'Sacral';
   constructor() {}
 
   // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method

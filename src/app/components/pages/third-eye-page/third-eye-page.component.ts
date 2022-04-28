@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThirdEyeComponent implements OnInit {
   panelOpenState = false;
+  pagename = 'Third-Eye';
   constructor() {}
 
   // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method

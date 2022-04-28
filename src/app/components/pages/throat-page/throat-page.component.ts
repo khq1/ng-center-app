@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThroatPageComponent implements OnInit {
   panelOpenState = false;
+  pagename = 'Throat';
   constructor() {}
 
   // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
