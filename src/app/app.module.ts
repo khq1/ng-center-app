@@ -15,6 +15,7 @@ import { HeartPageComponent } from './components/pages/heart-page/heart-page.com
 import { SolarPlexusPageComponent } from './components/pages/solar-plexus-page/solar-plexus-page.component';
 import { SacralPageComponent } from './components/pages/sacral-page/sacral-page.component';
 import { RootPageComponent } from './components/pages/root-page/root-page.component';
+import { GpacMainComponent } from './components/gpac-main/gpac-main.component';
 
 
 
@@ -31,6 +32,7 @@ import { RootPageComponent } from './components/pages/root-page/root-page.compon
     SolarPlexusPageComponent,
     SacralPageComponent,
     RootPageComponent,
+    GpacMainComponent,
 
   ],
   imports: [

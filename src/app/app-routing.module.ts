@@ -9,6 +9,7 @@ import { HeartPageComponent } from './components/pages/heart-page/heart-page.com
 import { SolarPlexusPageComponent } from './components/pages/solar-plexus-page/solar-plexus-page.component';
 import { SacralPageComponent } from './components/pages/sacral-page/sacral-page.component';
 import { RootPageComponent } from './components/pages/root-page/root-page.component';
+import { GpacMainComponent } from './components/gpac-main/gpac-main.component';
 const routes: Routes = [
 
   { path: '', component:MainComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'solar-plexus', component: SolarPlexusPageComponent },
   { path: 'sacral', component: SacralPageComponent },
   { path: 'root', component: RootPageComponent },
+  {path: 'gpac', component: GpacMainComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
