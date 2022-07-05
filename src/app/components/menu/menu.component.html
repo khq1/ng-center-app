@@ -1,56 +1,55 @@
 <mat-toolbar>
 
-<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="icon-button-menu">
-    <mat-icon>more_vert</mat-icon>
-</button>
-<mat-menu #menu="matMenu">
-    <button mat-menu-item>
-        <mat-icon>search</mat-icon>
-        <span>Search</span>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="icon-button-menu">
+        <mat-icon>more_vert</mat-icon>
     </button>
-    <button mat-menu-item disabled>
-        <mat-icon>fingerprint</mat-icon>
-        <span>ID</span>
-    </button>
-    <button mat-menu-item>
-        <mat-icon>notifications</mat-icon>
-        <span>Reminders</span>
-    </button>
-    <button mat-menu-item>
-        <mat-icon>edit_note</mat-icon>
-        <span>Share Your Journey</span>
-    </button>
-    <button mat-menu-item>
-        <mat-icon>group</mat-icon>
-        <span>My group</span>
-    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+            <mat-icon>search</mat-icon>
+            <span>Search</span>
+        </button>
+        <button mat-menu-item disabled>
+            <mat-icon>fingerprint</mat-icon>
+            <span>ID</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon>notifications</mat-icon>
+            <span>Reminders</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon>edit_note</mat-icon>
+            <span>Share Your Journey</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon>group</mat-icon>
+            <span>My group</span>
+        </button>
 
-<button mat-menu-item [matMenuTriggerFor]="Chakras">
-    <mat-icon>expand_circle_down</mat-icon>
-    <span>Chakras</span>
-</button>
+        <button mat-menu-item [matMenuTriggerFor]="Chakras">
+            <mat-icon>expand_circle_down</mat-icon>
+            <span>Chakras</span>
+        </button>
 
-<mat-menu #Chakras="matMenu">
-    <button mat-menu-item routerLink="/crown" routerLinkActive="active">Crown</button>
-    <button mat-menu-item routerLink="/third-eye" routerLinkActive="active">Third-Eye</button>
-    <button mat-menu-item  routerLink="/throat" routerLinkActive="active">Throat</button>
-    <button mat-menu-item  routerLink="/heart" routerLinkActive="active">Heart</button>
-    <button mat-menu-item routerLink="/solar-plexus" routerLinkActive="active">Solar Plexus</button>
-    <button mat-menu-item routerLink="/sacral" routerLinkActive="active">Sacral</button>
-    <button mat-menu-item routerLink="/root" routerLinkActive="active">Root</button>
-</mat-menu>
-<button mat-menu-item routerLink="/gpac" routerLinkActive="active">
-    <mat-icon>expand_circle_down</mat-icon>
-    <span>GPAC</span>
-</button>
-</mat-menu>
+        <mat-menu #Chakras="matMenu">
+            <button mat-menu-item routerLink="/crown" routerLinkActive="active">Crown</button>
+            <button mat-menu-item routerLink="/third-eye" routerLinkActive="active">Third-Eye</button>
+            <button mat-menu-item routerLink="/throat" routerLinkActive="active">Throat</button>
+            <button mat-menu-item routerLink="/heart" routerLinkActive="active">Heart</button>
+            <button mat-menu-item routerLink="/solar-plexus" routerLinkActive="active">Solar Plexus</button>
+            <button mat-menu-item routerLink="/sacral" routerLinkActive="active">Sacral</button>
+            <button mat-menu-item routerLink="/root" routerLinkActive="active">Root</button>
+        </mat-menu>
+        <button mat-menu-item routerLink="/gpac" routerLinkActive="active">
+            <mat-icon><span class="material-symbols-outlined">
+inventory
+</span></mat-icon>
+            <span>GPAC</span>
+        </button>
+    </mat-menu>
 
-
-
-   
-<span class="spacer"></span>
-<mat-icon>3d_rotation</mat-icon>
-<span class="title" [routerLink]="['/']">GO Self</span>
-<span class="spacer"></span>
-<mat-icon>account_circle</mat-icon>
+    <span class="spacer"></span>
+    <mat-icon>3d_rotation</mat-icon>
+    <span class="title" [routerLink]="['/']">GO Self</span>
+    <span class="spacer"></span>
+    <mat-icon>account_circle</mat-icon>
 </mat-toolbar>

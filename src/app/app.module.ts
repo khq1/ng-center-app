@@ -16,6 +16,10 @@ import { SolarPlexusPageComponent } from './components/pages/solar-plexus-page/s
 import { SacralPageComponent } from './components/pages/sacral-page/sacral-page.component';
 import { RootPageComponent } from './components/pages/root-page/root-page.component';
 import { GpacMainComponent } from './components/gpac-main/gpac-main.component';
+import { GroundComponent } from './components/gpac-pages/ground/ground.component';
+import { ProtectComponent } from './components/gpac-pages/protect/protect.component';
+import { AlignComponent } from './components/gpac-pages/align/align.component';
+import { CreateComponent } from './components/gpac-pages/create/create.component';
 
 
 
@@ -33,6 +37,10 @@ import { GpacMainComponent } from './components/gpac-main/gpac-main.component';
     SacralPageComponent,
     RootPageComponent,
     GpacMainComponent,
+    GroundComponent,
+    ProtectComponent,
+    AlignComponent,
+    CreateComponent,
 
   ],
   imports: [

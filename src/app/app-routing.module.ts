@@ -10,9 +10,13 @@ import { SolarPlexusPageComponent } from './components/pages/solar-plexus-page/s
 import { SacralPageComponent } from './components/pages/sacral-page/sacral-page.component';
 import { RootPageComponent } from './components/pages/root-page/root-page.component';
 import { GpacMainComponent } from './components/gpac-main/gpac-main.component';
+import { AlignComponent } from './components/gpac-pages/align/align.component';
+import { CreateComponent } from './components/gpac-pages/create/create.component';
+import { GroundComponent } from './components/gpac-pages/ground/ground.component';
+import { ProtectComponent } from './components/gpac-pages/protect/protect.component';
 const routes: Routes = [
 
-  { path: '', component:MainComponent},
+  { path: '', component: MainComponent },
   { path: 'crown', component: CrownPageComponent },
   { path: 'third-eye', component: ThirdEyeComponent },
   { path: 'throat', component: ThroatPageComponent },
@@ -20,7 +24,11 @@ const routes: Routes = [
   { path: 'solar-plexus', component: SolarPlexusPageComponent },
   { path: 'sacral', component: SacralPageComponent },
   { path: 'root', component: RootPageComponent },
-  {path: 'gpac', component: GpacMainComponent}
+  { path: 'gpac', component: GpacMainComponent },
+  { path: 'align', component: AlignComponent },
+  { path: 'create', component: CreateComponent },
+  { path: 'ground', component: GroundComponent },
+  {path: 'protect', component: ProtectComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

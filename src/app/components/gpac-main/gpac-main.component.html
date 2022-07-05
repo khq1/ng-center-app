@@ -1,1 +1,20 @@
-<p>gpac-main works!</p>
+<div class='side-checkbox-group-custom'>
+
+    <mat-checkbox id="ground" (change)="onChangeEvent($event)" labelPosition='after' color="accent"
+        matTooltip="Ground" matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/ground"
+        routerLinkActive="active">G
+    </mat-checkbox><br>
+
+    <mat-checkbox id="protect" (change)="onChangeEvent($event)" labelPosition='after' color="accent"
+        matTooltip="Protect" matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/protect"
+        routerLinkActive="active">P
+    </mat-checkbox><br>
+
+    <mat-checkbox id="align" (change)="onChangeEvent($event)" labelPosition='after' color="accent" matTooltip="Align"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/align" routerLinkActive="active">A
+    </mat-checkbox><br>
+
+    <mat-checkbox id="center" (change)="onChangeEvent($event)" labelPosition='after' color="accent" matTooltip="Center"
+        matTooltipClass="tooltip-red" matTooltipPosition='left' routerLink="/create" routerLinkActive="active">C
+    </mat-checkbox><br>
+</div>
